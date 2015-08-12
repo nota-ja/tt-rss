@@ -1,3 +1,4 @@
 {
-    "PHP_EXTENSIONS": ["mbstring", "curl", "gd", "pgsql"]
+    "PHP_EXTENSIONS": ["mbstring", "curl", "gd", "pgsql"],
+    "ADDITIONAL_PREPROCESS_CMDS": "pushd $HOME/htdocs; ln -s ../lib .; ls -l; popd"
 }
